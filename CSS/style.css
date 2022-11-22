@@ -1,128 +1,87 @@
-
 .main{
-    margin: 30px 60px 30px 300px;      
-    height: 800px;
+    margin: 30px auto;   
     width: 800px;
 }
-
-
 .header{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
 }
-
-.pre{
-    
-    padding: 5px;
+.header button{
+    padding: 10px;
     background-color: hsl(198, 28%, 93%);
     color: hsl(220, 50%, 17%);
     border-radius: 10px;
-
+    border: 0px;
 }
-
 .container1{
-   
     display: flex;
-    align-content: space-around;
-    /* height: 400px;
-    width: 800px; */
+    justify-content: space-between;
 }
-.type{
-    /* border: 2px solid black; */
-    height: 300px;
-    width: 300px;
-    text-align: center;
+.container1 .type h1{
+    font-family: 'Barlow Condensed';
 }
-/* #master{
-    height: 20px;
-    width: 30px;
-    border: 2px solid black;
+.type{ 
+    margin-top: 40px;
 }
-#improve{
-    height: 30px;
-    width: 100px; */
-/* } */
-.image1{
-    /* border: 2px solid black; */
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    left: 800px; 
-    border-radius: 10px;
+.container1 span{
+    position: relative;
+    top: 30px;
 }
-.container2{
+.container1 #order{
 
-    /* border: 2px solid black; */
-    display: flex;
-    width:800px;
-}
-.image2{
-    height: 300px;
-    width: 300px; 
-    border-radius: 10px;
-    filter: sepia(100%);
-}
-
-.image3{
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
-}
-
-.mech{
-    margin-left:50px;
-    height: 300px;
-    width: 300px;
-}
-
-.container3{
-    /* border: 2px solid black; */
-    display: flex;
-    align-content: space-around;
-    height: 300px;
-    width: 800px;
-
-}
-
-.high{
-    height: 200px;
-    width: 300px;
-    text-align: center;
     padding: 10px;
+    background-color: hsl(22, 89%, 52%);
+    border-radius: 5px;
+    margin-right: 20px ;
 }
-.wire{
-    height: 300px;
+.container1 img{
     width: 300px;
-    text-align: center;
+    border-radius: 10px;
+    margin: 30px 0px;
 }
 
-.high2{
-    height: 100px;
-    width: 300px;
-    text-align: center;
-}
-.rgb{
-    height: 300px;
-    width: 300px;
-    text-align: center;
-}
-.footer{
-    /* border: 2px solid black; */
+.container2{
+    margin: 80px auto;
     display: flex;
+    justify-content: space-between;
+}
+#img1{
+    height: 250px;
+    width: 150px;
+    background-image: url("../images/image-phone-and-keyboard.jpg");
+    background-color: #f36718;
+    background-blend-mode: multiply;
+    background-size: cover;
+    border-radius: 20px;
+}
 
+#board{
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin:auto 150px auto 50px;
+}
+.container2  .mech h2{
+    font-family: 'Barlow Condensed';
+}
+.container3{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.items{
+    height: 300px;
+    width: 180px;
+}
+.container3 .items h3{
+    font-family: 'Barlow Condensed';
 }
 p{
-    color: hsl(221, 23%, 58%);
+    color: #7e8eaf;
 }
 .small{
     padding: 10px;
-    background-color: hsl(22, 89%, 52%);
-    border-radius: 10px;
-}
-#now{
-    border: 2px solid block;
-}
-img{
+    background-color: #f36718;
     border-radius: 10px;
 }
