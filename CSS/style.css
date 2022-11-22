@@ -5,6 +5,7 @@
     width: 800px;
 }
 
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -54,12 +55,13 @@
 
     /* border: 2px solid black; */
     display: flex;
-    align-content: space-around;
+    width:800px;
 }
 .image2{
     height: 300px;
     width: 300px; 
     border-radius: 10px;
+    filter: sepia(100%);
 }
 
 .image3{
@@ -69,6 +71,7 @@
 }
 
 .mech{
+    margin-left:50px;
     height: 300px;
     width: 300px;
 }
@@ -78,7 +81,7 @@
     display: flex;
     align-content: space-around;
     height: 300px;
-    width: 1000px;
+    width: 800px;
 
 }
 
@@ -119,4 +122,7 @@ p{
 }
 #now{
     border: 2px solid block;
+}
+img{
+    border-radius: 10px;
 }
